@@ -1,0 +1,17 @@
+{
+  "name": "test-npm-cacheGitRemotes",
+  "version": "0.0.0",
+  "description": "test caching git remotes with npm",
+  "main": "test.js",
+  "scripts": {
+    "test": "node_modules/.bin/tap test.js"
+  },
+  "dependencies": {
+    "tap" : "~0.3",
+    "async" : "~0.1",
+    "npm" : "git://github.com/guybrush/npm.git#cacheGitRemotes"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
